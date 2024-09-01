@@ -33,7 +33,7 @@ export const WEB_PORTFOLIO: Portfolio[] = [
     name: "Portfolio Website",
     description: "My portfolio website version 2",
     image:
-      "https://raw.githubusercontent.com/TcBello/chatty/master/screenshots/chat_page_ss_2.png",
+      "https://raw.githubusercontent.com/TcBello/Tcbello-Portfolio-Website-v2/master/src/ss/screenshot.png?token=GHSAT0AAAAAACW3SVDYNZ4FQSFAH3XNWSK6ZWUFDGQ",
     technologies: ["Next.js"],
   },
   {
