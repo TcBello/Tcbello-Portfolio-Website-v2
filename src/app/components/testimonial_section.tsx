@@ -48,7 +48,7 @@ const TestimonialSection = () => {
           {TESTIMONIALS.map((testimonial, index) => {
             return (
               <TestimonialCard
-                key={`Testimonila-${index}`}
+                key={`Testimonial-${index}`}
                 testimonial={testimonial}
               />
             );

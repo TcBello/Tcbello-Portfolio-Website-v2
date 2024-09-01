@@ -15,7 +15,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: TestimonialType }) => {
 
         <Spacer y={4} />
 
-        <p>"{testimonial.content}"</p>
+        <p>&quot;{testimonial.content}&quot;</p>
       </div>
 
       <div className="w-[223px] h-auto flex flex-col justify-center">
