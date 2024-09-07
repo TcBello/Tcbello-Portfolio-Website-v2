@@ -10,7 +10,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: TestimonialType }) => {
 
         <div className="flex flex-row items-center space-x-2">
           <span className="h-1 w-4 bg-app-color-blue-1 rounded-full" />
-          <h6 className="text-lg">{`${testimonial.position} @ ${testimonial.company}`}</h6>
+          <h6 className="text-lg">{`${testimonial.position}, ${testimonial.company}`}</h6>
         </div>
 
         <Spacer y={4} />
@@ -22,7 +22,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: TestimonialType }) => {
         <div className="w-[223px] h-[196px] bg-app-color-blue-1 rounded-tl-3xl rounded-bl-3xl relative mt-4">
           <Image
             src={testimonial.image}
-            alt={"Rachel Image"}
+            alt={`${testimonial.name} Image`}
             className="w-[157px] h-[250px] absolute bottom-0 left-1/2 right-1/2 -translate-x-1/2"
           />
         </div>
