@@ -13,7 +13,7 @@ const spacingHeight = 16;
 
 export default function Home() {
   return (
-    <main className="bg-app-color-dark-1 min-h-screen">
+    <main className="bg-app-color-dark-1 min-h-screen text-white">
       <IntroductionSection />
       <Spacer y={spacingHeight} />
       <AboutSection />
