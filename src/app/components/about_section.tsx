@@ -9,7 +9,7 @@ const AboutSection = () => {
       <div className="flex flex-row gap-4">
         <div className="bg-app-color-blue-1 h-2 w-[31.25rem] rounded-full mt-4" />
         <MagicFadeText
-          className="text-white text-3xl"
+          className="text-white text-2xl lg:text-3xl"
           direction="left"
           text="An experienced software engineer skilled in designing and developing
           scalable applications with Flutter, NextJS, and MERN Stack. Strong

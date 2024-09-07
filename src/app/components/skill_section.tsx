@@ -11,7 +11,9 @@ const SkillItem = (props: { name: string; image: any }) => {
     >
       <CardBody className="flex flex-col items-center justify-around">
         <Image src={props.image} alt={props.name} className="size-[70px]" />
-        <h1 className="font-medium text-3xl text-white">{props.name}</h1>
+        <h1 className="font-medium text-2xl lg:text-3xl text-white">
+          {props.name}
+        </h1>
       </CardBody>
     </Card>
   );

@@ -11,7 +11,7 @@ const ResumeButton = () => {
 
   return (
     <Button
-      className="text-3xl font-bold hover:text-white border-5 rounded-lg h-20"
+      className="text-xl lg:text-2xl font-bold hover:text-white border-5 rounded-lg h-20"
       variant="ghost"
       color="primary"
       onClick={handleViewResume}

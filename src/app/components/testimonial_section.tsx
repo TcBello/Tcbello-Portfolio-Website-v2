@@ -8,9 +8,9 @@ import SectionTitle from "@/components/section_title";
 const TestimonialDots = () => {
   return (
     <div className="flex flex-row gap-16">
-      <div className="size-8 rounded-full bg-app-color-blue-1" />
-      <div className="size-8 rounded-full bg-app-color-blue-3" />
-      <div className="size-8 rounded-full bg-app-color-blue-4" />
+      <div className="size-5 lg:size-8 rounded-full bg-app-color-blue-1" />
+      <div className="size-5 lg:size-8 rounded-full bg-app-color-blue-3" />
+      <div className="size-5 lg:size-8 rounded-full bg-app-color-blue-4" />
     </div>
   );
 };

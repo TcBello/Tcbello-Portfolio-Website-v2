@@ -40,10 +40,10 @@ const NavigationBar = () => {
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       isMenuOpen={isMenuOpen}
-      className="bg-app-color-dark-1 p-4"
+      className="bg-app-color-dark-1 md:p-4"
       maxWidth="full"
       position="static"
-      height={"7rem"}
+      height={"6rem"}
     >
       <NavbarContent>
         {/* MENU BUTTON */}
@@ -77,8 +77,7 @@ const NavigationBar = () => {
       </NavbarContent>
 
       {/* SMALL SCREENS NAVIGATION MENU ITEMS */}
-      <NavbarMenu className="bg-app-color-dark-2 space-y-4">
-        <Spacer y={5} />
+      <NavbarMenu className="bg-app-color-dark-2 space-y-4 pt-4">
         {navbarItems.map((item, index) => {
           return (
             <NavbarMenuItem

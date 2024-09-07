@@ -33,14 +33,12 @@ const TimelineElement = (props: { workExperience: WorkExperience }) => {
           />
         }
       >
-        {/* <h3 className="vertical-timeline-element-title">Creative Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-        <p>
-          Creative Direction, User Experience, Visual Design, Project
-          Management, Team Leading
-        </p> */}
-        <h3 className="font-bold text-2xl">{props.workExperience.position}</h3>
-        <h4 className="font-medium text-xl">{props.workExperience.company}</h4>
+        <h3 className="font-bold text-xl lg:text-2xl">
+          {props.workExperience.position}
+        </h3>
+        <h4 className="font-medium text-lg lg:text-xl">
+          {props.workExperience.company}
+        </h4>
 
         <Spacer y={4} />
 

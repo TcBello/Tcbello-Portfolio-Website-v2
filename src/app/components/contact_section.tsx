@@ -116,7 +116,7 @@ const ContactSection = () => {
         <Button
           color="primary"
           isLoading={isSending}
-          className="self-center font-bold text-xl w-2/5 h-12"
+          className="self-center font-bold text-xl w-3/5 lg:w-2/5 h-12"
           startContent={isSending ? null : <IoIosSend className="size-6" />}
           onClick={() => (isSending ? null : send())}
         >
@@ -127,7 +127,7 @@ const ContactSection = () => {
       <Spacer y={8} />
 
       <ContactDivider>
-        <div className="flex flex-row gap-6">
+        <div className="flex flex-row gap-3 lg:gap-6">
           {SOCIALS.map((social) => {
             return (
               <Button

@@ -13,13 +13,13 @@ const IntroductionSection = () => {
       <MyImageSmallScreen />
       <Spacer y={8} className="lg:hidden" />
       {/* DETAILS */}
-      <div className="text-3xl text-white space-y-9 lg:w-1/3">
+      <div className="text-2xl lg:text-3xl text-white space-y-9 lg:w-1/3">
         <MagicBoxReveal boxColor={AppColor.blue1}>
           <p>
             I&apos;m{" "}
             <MagicSparklesText
               text="Thom Carlo Bello"
-              className="text-app-color-blue-1 text-5xl font-aleo font-bold"
+              className="text-app-color-blue-1 text-4xl lg:text-5xl font-aleo font-bold"
             />
           </p>
         </MagicBoxReveal>
