@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="absolute left-4 top-4">
         <TcbelloLogo />
       </div>
-      <p className="text-xl">
+      <p className="text-xl text-white">
         © {date.getFullYear()} Tcbello. All Rights Reserved.
       </p>
     </footer>
