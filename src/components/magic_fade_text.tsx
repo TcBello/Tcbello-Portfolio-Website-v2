@@ -20,7 +20,7 @@ function MagicFadeText({
   text,
 }: FadeTextProps) {
   const directionOffset = useMemo(() => {
-    const map = { up: 10, down: -10, left: -10, right: 10 };
+    const map = { up: 10, down: -10, left: -50, right: 10 };
     return map[direction];
   }, [direction]);
 
@@ -42,7 +42,7 @@ function MagicFadeText({
         ...(show ?? {}),
         opacity: show?.opacity ?? 1,
         [axis]: show?.[axis] ?? 0,
-        transition: { delay: 0.1 },
+        transition: { delay: 0.1, transition: 2 },
       },
     };
   }, [directionOffset, axis, framerProps]);
