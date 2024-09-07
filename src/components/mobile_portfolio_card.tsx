@@ -31,7 +31,7 @@ const MobilePortfolioCard = (props: {
       <Image
         src={props.portfolio.image}
         alt={props.portfolio.name}
-        className="absolute left-1/2 right-1/2 -translate-x-1/2 top-1 md:hidden w-[300px] h-auto"
+        className="absolute left-1/2 right-1/2 -translate-x-1/2 top-1 sm:hidden w-[300px] h-auto"
       />
 
       <div className="flex flex-col items-center md:flex-row max-sm:mt-[37rem]">
@@ -41,8 +41,8 @@ const MobilePortfolioCard = (props: {
           className="absolute left-1 top-1 max-sm:hidden w-[200px] h-auto"
         />
 
-        <div className="flex flex-col items-center md:items-start gap-3 md:ml-[43%] md:max-w-[60%] md:h-[370px]">
-          <h1 className="text-3xl font-bold font-aleo mt-4 md:mt-0">
+        <div className="flex flex-col items-center sm:items-start gap-3 ml-[43%] max-sm:ml-0 md:max-w-[60%] h-[370px] max-sm:h-auto">
+          <h1 className="text-3xl font-bold font-aleo mt-4 sm:mt-0">
             {props.portfolio.name}
           </h1>
 

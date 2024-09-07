@@ -58,7 +58,11 @@ const PortfolioSection = () => {
               </div>
             }
           >
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div
+              className={`grid grid-cols-1 ${
+                tab.id == PortfolioTab.mobile ? "xl:grid-cols-2" : null
+              } gap-6`}
+            >
               {tab.id == PortfolioTab.mobile
                 ? tab.portfolios.slice(0, 4).map((portfolio, index) => {
                     return (
