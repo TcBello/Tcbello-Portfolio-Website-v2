@@ -5,17 +5,12 @@ import Image from "next/image";
 
 const SkillItem = (props: { name: string; image: any }) => {
   return (
-    <Card
-      shadow="none"
-      className="h-[200px] w-[200px] bg-app-color-gray-1 hover:shadow-skillOnHover"
-    >
-      <CardBody className="flex flex-col items-center justify-around">
-        <Image src={props.image} alt={props.name} className="size-[70px]" />
-        <h1 className="font-medium text-2xl lg:text-3xl text-white">
-          {props.name}
-        </h1>
-      </CardBody>
-    </Card>
+    <div className="rounded-xl h-[200px] w-[200px] bg-app-color-gray-1 cursor-pointer hover:shadow-skillOnHover transition-all ease-out duration-500 flex flex-col items-center justify-around p-4">
+      <Image src={props.image} alt={props.name} className="size-[70px]" />
+      <h1 className="font-medium text-2xl lg:text-3xl text-white">
+        {props.name}
+      </h1>
+    </div>
   );
 };
 

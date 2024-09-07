@@ -68,7 +68,10 @@ const NavigationBar = () => {
               key={item.title}
               className="text-white font-bold text-xl"
             >
-              <Link href={item.href} className="hover:text-app-color-blue-1">
+              <Link
+                href={item.href}
+                className="hover:text-app-color-blue-1 transition-all ease-out duration-500"
+              >
                 {item.title}
               </Link>
             </NavbarItem>

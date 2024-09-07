@@ -31,7 +31,7 @@ const config: Config = {
         aleo: "var(--font-aleo)",
       },
       boxShadow: {
-        skillOnHover: "rgba(43, 106, 188, 0.8) 0 0 16px 16px",
+        skillOnHover: "rgba(43, 106, 188, 1) 0 0 16px 16px",
       },
       animation: {
         backgroundPositionSpin:
