@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 
-type WorkExperience = {
+type WorkExperienceType = {
   company: string;
   position: string;
   date: string;
@@ -9,4 +9,4 @@ type WorkExperience = {
   image: StaticImageData;
 };
 
-export default WorkExperience;
+export default WorkExperienceType;

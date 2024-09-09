@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 
-type Portfolio = {
+type PortfolioType = {
   name: string;
   image: string | StaticImageData;
   description?: string;
@@ -11,4 +11,4 @@ type Portfolio = {
   appstoreLink?: string;
 };
 
-export default Portfolio;
+export default PortfolioType;

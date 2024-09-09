@@ -19,6 +19,9 @@ const useContactController = () => {
     null
   );
 
+  /**
+   * Open social link in a new tab
+   */
   function openLink(link: string): void {
     openNewTab(link);
   }
@@ -60,6 +63,9 @@ const useContactController = () => {
     );
   }
 
+  /**
+   * Submit contact form
+   */
   function send() {
     const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_API_KEY as string;
     const serviceId = "service_ynva5lf";

@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { Spacer } from "@nextui-org/react";
+import { Spacer } from "@nextui-org/spacer";
 import TESTIMONIALS from "@/constants/testimonials";
 import TestimonialCard from "./testimonial_card";
 import MagicMarquee from "@/components/magic_marquee";
@@ -29,21 +28,10 @@ const TestimonialSection = () => {
 
       <Spacer y={8} />
 
-      {/* <MagicMarquee pauseOnHover className="[--duration:20s] w-full">
-        {TESTIMONIALS.map((testimonial, index) => {
-          return (
-            <TestimonialCard
-              key={`Testimonila-${index}`}
-              testimonial={testimonial}
-            />
-          );
-        })}
-      </MagicMarquee> */}
-
       <div className="w-full relative">
         <MagicMarquee
           pauseOnHover
-          className="[--duration:20s] ml-auto mr-auto w-[99%]"
+          className="[--duration:40s] ml-auto mr-auto w-[99%]"
         >
           {TESTIMONIALS.map((testimonial, index) => {
             return (

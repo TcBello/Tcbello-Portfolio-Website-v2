@@ -1,7 +1,7 @@
 "use client";
 
 import Portfolio from "@/types/portoflio";
-import { Chip } from "@nextui-org/react";
+import { Chip } from "@nextui-org/chip";
 import AppstoreButton from "./appstore_button";
 import GithubButton from "./github_button";
 import PlaystoreButton from "./playstore_button";

@@ -1,9 +1,9 @@
-import Portfolio from "@/types/portoflio";
 import animehistoryImage from "@/assets/images/animehistory.png";
 import nittivImage from "@/assets/images/nittiv.png";
 import musicImage from "@/assets/images/music.png";
+import PortfolioType from "@/types/portoflio";
 
-export const MOBILE_PORTFOLIO: Portfolio[] = [
+export const MOBILE_PORTFOLIO: PortfolioType[] = [
   {
     name: "Anime History",
     description:
@@ -28,7 +28,7 @@ export const MOBILE_PORTFOLIO: Portfolio[] = [
   },
 ];
 
-export const WEB_PORTFOLIO: Portfolio[] = [
+export const WEB_PORTFOLIO: PortfolioType[] = [
   {
     name: "Portfolio Website",
     description: "My portfolio website version 2",

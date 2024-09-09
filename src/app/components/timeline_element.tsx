@@ -1,6 +1,7 @@
 import AppColor from "@/themes/app_color";
 import WorkExperience from "@/types/work_experience";
-import { Chip, Spacer } from "@nextui-org/react";
+import { Chip } from "@nextui-org/chip";
+import { Spacer } from "@nextui-org/spacer";
 import Image, { StaticImageData } from "next/image";
 import { useInView } from "react-intersection-observer";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";

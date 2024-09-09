@@ -1,6 +1,5 @@
 import SectionTitle from "@/components/section_title";
 import SKILLS from "@/constants/skills";
-import { Card, CardBody } from "@nextui-org/card";
 import Image from "next/image";
 
 const SkillItem = (props: { name: string; image: any }) => {

@@ -50,9 +50,7 @@ function MagicFadeText({
   return (
     <motion.div
       initial="hidden"
-      //   animate="show"
       whileInView="show"
-      //   viewport={{ once: true }}
       variants={FADE_ANIMATION_VARIANTS}
     >
       <motion.span className={className}>{text}</motion.span>

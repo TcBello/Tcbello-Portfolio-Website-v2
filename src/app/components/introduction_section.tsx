@@ -1,10 +1,10 @@
-import Image from "next/image";
-import { Spacer } from "@nextui-org/react";
+import { Spacer } from "@nextui-org/spacer";
 import ResumeButton from "./resume_button";
 import MagicBoxReveal from "../../components/magic_box_reveal";
 import AppColor from "@/themes/app_color";
 import { MyImageLargeScreen, MyImageSmallScreen } from "./my_image";
 import MagicSparklesText from "@/components/magic_sparkle_text";
+import { MY_NAME, SHORT_INTRODUCTION } from "@/constants/strings";
 
 const IntroductionSection = () => {
   return (
@@ -18,16 +18,13 @@ const IntroductionSection = () => {
           <p>
             I&apos;m{" "}
             <MagicSparklesText
-              text="Thom Carlo Bello"
+              text={MY_NAME}
               className="text-app-color-blue-1 text-4xl lg:text-5xl font-aleo font-bold"
             />
           </p>
         </MagicBoxReveal>
         <MagicBoxReveal boxColor={AppColor.blue1}>
-          <p>
-            An experienced developer crafting dynamic applications with React
-            and Flutter for seamless user experiences.
-          </p>
+          <p>{SHORT_INTRODUCTION}</p>
         </MagicBoxReveal>
         <MagicBoxReveal boxColor={AppColor.blue1}>
           <ResumeButton />

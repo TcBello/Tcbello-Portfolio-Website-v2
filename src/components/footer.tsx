@@ -1,4 +1,3 @@
-import { Spacer } from "@nextui-org/react";
 import TcbelloLogo from "./tcbello_logo";
 
 const Footer = () => {

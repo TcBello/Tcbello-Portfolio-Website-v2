@@ -1,15 +1,15 @@
-import WorkExperience from "@/types/work_experience";
 import enkartoLogo from "@/assets/images/enkarto.jpg";
 import nittivLogo from "@/assets/images/nittiv.jpg";
 import kaheroLogo from "@/assets/images/kahero.png";
 import hipeLogo from "@/assets/images/hipe.png";
+import WorkExperienceType from "@/types/work_experience";
 
-const WORK_EXPERIENCES: WorkExperience[] = [
+const WORK_EXPERIENCES: WorkExperienceType[] = [
   {
     company: "HiPE Japan Inc.",
     position: "Software Engineer",
     date: "July 2024 - Present",
-    keywords: ["Laravel"],
+    keywords: ["Flutter", "Python", "AWS"],
     location: "Quezon City, Philippines",
     image: hipeLogo,
   },

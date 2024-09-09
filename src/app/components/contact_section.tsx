@@ -1,8 +1,7 @@
 "use client";
 
 import React from "react";
-import { Input } from "@nextui-org/input";
-import { Textarea } from "@nextui-org/input";
+import { Input, Textarea } from "@nextui-org/input";
 import { Spacer } from "@nextui-org/spacer";
 import { Button } from "@nextui-org/button";
 import { IoIosSend } from "react-icons/io";

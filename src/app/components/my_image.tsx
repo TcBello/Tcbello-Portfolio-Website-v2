@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import MyPicture from "@/assets/images/mypicture.png";
-import { Fragment } from "react";
 
 export const MyImageLargeScreen = () => {
   return (
@@ -17,7 +16,6 @@ export const MyImageLargeScreen = () => {
       <Image
         src={MyPicture}
         alt={"My Picture"}
-        // className="w-[23rem] h-[37.125rem] max-lg:hidden"
         className="w-[30rem] h-[40rem] max-lg:hidden"
         priority
       />

@@ -1,5 +1,6 @@
 import MagicFadeText from "@/components/magic_fade_text";
 import SectionTitle from "@/components/section_title";
+import { ABOUT_ME } from "@/constants/strings";
 
 const AboutSection = () => {
   return (
@@ -11,12 +12,7 @@ const AboutSection = () => {
         <MagicFadeText
           className="text-white text-2xl lg:text-3xl"
           direction="left"
-          text="An experienced software engineer skilled in designing and developing
-          scalable applications with Flutter, NextJS, and MERN Stack. Strong
-          analytical skills and a passion for innovation drive my ability to
-          solve complex challenges effectively. I thrive in collaborative
-          environments, bringing proactive leadership and a commitment to
-          continuous learning to deliver high-quality solutions."
+          text={ABOUT_ME}
         />
       </div>
     </section>

@@ -11,7 +11,6 @@ import {
 } from "@nextui-org/navbar";
 import { useState } from "react";
 import Link from "next/link";
-import { Spacer } from "@nextui-org/spacer";
 import TcbelloLogo from "./tcbello_logo";
 
 const navbarItems = [

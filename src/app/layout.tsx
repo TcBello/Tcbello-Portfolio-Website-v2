@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Montserrat, Aleo } from "next/font/google";
 import "./globals.css";
-import { Providers } from "./providers";
 import NavigationBar from "@/components/navigation_bar";
 import Footer from "@/components/footer";
+import Providers from "./providers";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
