@@ -13,6 +13,7 @@ import firebase from "@/assets/images/firebase.svg";
 import mysql from "@/assets/images/mysql.svg";
 import tailwind from "@/assets/images/tailwind.svg";
 import figma from "@/assets/images/figma.svg";
+import git from "@/assets/images/git.svg";
 
 const SKILLS = [
   {
@@ -74,6 +75,10 @@ const SKILLS = [
   {
     name: "Figma",
     image: figma,
+  },
+  {
+    name: "Git",
+    image: git,
   },
 ];
 
