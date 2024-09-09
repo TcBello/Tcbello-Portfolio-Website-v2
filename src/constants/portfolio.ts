@@ -33,8 +33,8 @@ export const WEB_PORTFOLIO: PortfolioType[] = [
     name: "Portfolio Website",
     description: "My portfolio website version 2",
     image:
-      "https://raw.githubusercontent.com/TcBello/Tcbello-Portfolio-Website-v2/master/src/ss/screenshot.png?token=GHSAT0AAAAAACW3SVDYNZ4FQSFAH3XNWSK6ZWUFDGQ",
-    technologies: ["Next.js"],
+      "https://raw.githubusercontent.com/TcBello/Tcbello-Portfolio-Website-v2/master/src/ss/screenshot.png",
+    technologies: ["Next.js", "Tailwind"],
   },
   {
     name: "Chatty",
@@ -63,15 +63,5 @@ export const WEB_PORTFOLIO: PortfolioType[] = [
     technologies: ["React", "OMDB API"],
     githubLink: "https://github.com/TcBello/Movies",
     visitLink: "https://tcbello-movies.vercel.app/",
-  },
-  {
-    name: "Chatty",
-    description:
-      "A simple chatting website that can find, meet, and get to know new people with the same preferences.",
-    image:
-      "https://raw.githubusercontent.com/TcBello/chatty/master/screenshots/chat_page_ss_2.png",
-    technologies: ["MongoDB", "Express.js", "React", "Node.js", "Socket.io"],
-    githubLink: "https://github.com/TcBello/chatty/tree/master",
-    visitLink: "https://chatty-tcbello.vercel.app/",
   },
 ];
